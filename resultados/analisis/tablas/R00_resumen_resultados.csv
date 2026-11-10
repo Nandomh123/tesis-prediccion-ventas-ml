@@ -1,0 +1,37 @@
+﻿,valor
+transformacion,nivel
+exogenas,Macro admitidas
+WAPE prueba · Random Forest,0.6687890671657122
+Sesgo % · Random Forest,-19.93482550065694
+WAPE prueba · MLP,0.9367414883939404
+Sesgo % · MLP,-9.34867700197798
+WAPE prueba · XGBoost,0.7689714569679568
+Sesgo % · XGBoost,-25.738816918990423
+WAPE prueba · LightGBM,0.7519264774004518
+Sesgo % · LightGBM,-26.61801291108456
+WAPE prueba · CatBoost,0.7424297817447958
+Sesgo % · CatBoost,-14.385287583927196
+WAPE prueba · Croston–SBA,0.6559995279720626
+Sesgo % · Croston–SBA,-17.161111046321647
+WAPE prueba · Método empresa,0.727262785130646
+Sesgo % · Método empresa,-19.20630164516043
+WAPE prueba · Método empresa (línea real),0.70145706562324
+Sesgo % · Método empresa (línea real),0.1018113849684335
+WAPE prueba · Combinación,0.6428833706870046
+Dif. combinación − empresa (pp),-8.43794144436414
+IC95 combinación (pp),[-10.8; -6.2]
+Cobertura intervalo 80 %,0.7870957611075732
+WAPE empresa total · Random Forest,0.2539372124200278
+WAPE línea · Random Forest,0.4045836128331418
+WAPE cliente · Random Forest,0.41622656951627
+WAPE empresa total · Combinación RF + Croston,0.2586801090226699
+WAPE línea · Combinación RF + Croston,0.3754654678925519
+WAPE cliente · Combinación RF + Croston,0.401375765290987
+WAPE empresa total · Método empresa,0.2541815279892686
+WAPE línea · Método empresa,0.3866555535815901
+WAPE cliente · Método empresa,0.4411313781518454
+WAPE empresa total · Croston–SBA,0.2465817548749612
+WAPE línea · Croston–SBA,0.3677264123701773
+WAPE cliente · Croston–SBA,0.4109018199925347
+Modelo SHAP,LightGBM
+Top 5 SHAP,"Croston–SBA, Mismo mes año anterior, Máximo 6 meses, Media 6 meses, Venta del mes de origen"

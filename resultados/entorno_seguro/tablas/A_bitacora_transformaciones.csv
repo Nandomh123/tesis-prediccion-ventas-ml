@@ -1,0 +1,8 @@
+﻿n,paso,descripcion,filas_antes,filas_despues
+1,carga,Lectura de la extracción GCP (2022-01 a 2026-09) y copia de auditoría,,865900
+2,seudonimizacion,Cod_Cliente y Cod_Material llegaban en claro; se reemplazan por HMAC-SHA256,865900.0,865900
+3,tipos_nulos,Conversión de tipos; se descartan filas sin fecha o sin monto,865900.0,865900
+4,clases,"Se conservan las 17 clases documentales (pedidos, devoluciones, notas de crédito, refacturaciones); 25.19 % de registros negativos; 220 duplicados exactos (se conservan: sin número de documento son legítimos)",865900.0,865900
+5,agregacion,Suma de la venta neta y las unidades netas por cliente–línea–mes,865900.0,62899
+6,panel,Inserción de meses sin movimiento desde el primer mes con venta neta distinta de cero,62899.0,147507
+7,atipicos,"Marcado IQR (log|y|, por línea): 0.37 % de meses con movimiento; P99: 1.03 %. Se conservan",147507.0,147507

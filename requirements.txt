@@ -1,0 +1,13 @@
+# Entorno de análisis (versiones de la Tabla A10 de la tesis)
+pandas==2.3.3
+numpy==1.26.4
+scipy
+scikit-learn==1.7.2
+xgboost==3.2.0
+lightgbm==4.7.0
+catboost==1.2.10
+statsmodels==0.15.0
+shap==0.49.1
+lime==0.2.0.1
+matplotlib==3.10.9
+holidays

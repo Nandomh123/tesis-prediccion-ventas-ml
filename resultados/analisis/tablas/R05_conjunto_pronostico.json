@@ -1,0 +1,9 @@
+{
+  "casos": 776626,
+  "por_particion": {
+    "entrenamiento": 551386,
+    "prueba": 114629,
+    "validacion": 110611
+  },
+  "predictores_sin_exogenas": 33
+}

@@ -1,0 +1,5 @@
+# Adicionales para el entorno seguro (solo dentro de la empresa)
+-r requirements.txt
+ctgan
+torch
+openpyxl

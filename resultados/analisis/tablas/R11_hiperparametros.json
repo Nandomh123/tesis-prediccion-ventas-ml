@@ -1,0 +1,27 @@
+{
+  "Random Forest": {
+    "n_estimators": "150",
+    "min_samples_leaf": "20",
+    "max_features": "0.33",
+    "max_samples": "0.5"
+  },
+  "MLP": {
+    "capas": "(64, 32)",
+    "alpha": "0.0001"
+  },
+  "XGBoost": {
+    "max_depth": "8",
+    "min_child_weight": "20",
+    "n_iter": "56"
+  },
+  "LightGBM": {
+    "num_leaves": "31",
+    "min_child_samples": "20",
+    "n_iter": "223"
+  },
+  "CatBoost": {
+    "depth": "6",
+    "l2": "10",
+    "n_iter": "410"
+  }
+}

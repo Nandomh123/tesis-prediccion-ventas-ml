@@ -1,0 +1,4 @@
+﻿iteracion,epochs,seg_ajuste,criterios_evaluados,criterios_cumplidos,aprobado,wape_agregado
+0,300,4510.9,20,18,False,0.22986443274217483
+1,600,6987.8,20,18,False,0.2859397987355423
+2,1200,12529.0,20,18,False,0.2764398393443166

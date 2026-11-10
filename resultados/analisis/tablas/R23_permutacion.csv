@@ -1,0 +1,41 @@
+﻿modelo,grupo,aumento_WAPE_pp
+Random Forest,Ventas recientes,40.793793407583124
+Random Forest,Frecuencia e intermitencia,39.325687126738416
+Random Forest,Venta del cliente y de la línea,0.13476225677991893
+Random Forest,Unidades,0.5956805299144108
+Random Forest,Calendario y estacionalidad,3.9524085109835294
+Random Forest,Horizonte,0.03079800278650291
+Random Forest,Atributos comerciales,-0.1704253619027818
+Random Forest,Macroeconómicas,0.46800665109207884
+MLP,Ventas recientes,19.46535198919428
+MLP,Frecuencia e intermitencia,17.724970314681432
+MLP,Venta del cliente y de la línea,-0.29439352251358075
+MLP,Unidades,-1.3085947135052178
+MLP,Calendario y estacionalidad,-3.642263374074839
+MLP,Horizonte,0.5801101207697612
+MLP,Atributos comerciales,12.274648186968196
+MLP,Macroeconómicas,1.4988605072396521
+XGBoost,Ventas recientes,44.54584773660507
+XGBoost,Frecuencia e intermitencia,26.848200589697225
+XGBoost,Venta del cliente y de la línea,2.4651866194838723
+XGBoost,Unidades,-0.014356680435090308
+XGBoost,Calendario y estacionalidad,3.7195690392889946
+XGBoost,Horizonte,-0.1880263834471596
+XGBoost,Atributos comerciales,-1.051244373247262
+XGBoost,Macroeconómicas,0.5657325819427017
+LightGBM,Ventas recientes,35.893751098430236
+LightGBM,Frecuencia e intermitencia,12.677367519816062
+LightGBM,Venta del cliente y de la línea,0.7832047732823866
+LightGBM,Unidades,0.8653380486324247
+LightGBM,Calendario y estacionalidad,9.908616918707637
+LightGBM,Horizonte,-0.18701986648037572
+LightGBM,Atributos comerciales,4.556842675707706
+LightGBM,Macroeconómicas,-0.155111971842381
+CatBoost,Ventas recientes,42.741144219901116
+CatBoost,Frecuencia e intermitencia,19.857970887813657
+CatBoost,Venta del cliente y de la línea,2.388690552689776
+CatBoost,Unidades,1.424294726702724
+CatBoost,Calendario y estacionalidad,11.780264779728178
+CatBoost,Horizonte,0.004045686394904546
+CatBoost,Atributos comerciales,7.454233961171408
+CatBoost,Macroeconómicas,0.3541980248067733

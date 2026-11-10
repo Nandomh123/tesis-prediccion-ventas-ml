@@ -1,0 +1,35 @@
+{
+  "modo": "estudio",
+  "fin_ajuste": "2026-09",
+  "iteracion_elegida": 0,
+  "historial": [
+    {
+      "iteracion": 0,
+      "epochs": 300,
+      "seg_ajuste": 4510.9,
+      "criterios_evaluados": 20,
+      "criterios_cumplidos": 18,
+      "aprobado": false,
+      "wape_agregado": 0.22986443274217483
+    },
+    {
+      "iteracion": 1,
+      "epochs": 600,
+      "seg_ajuste": 6987.8,
+      "criterios_evaluados": 20,
+      "criterios_cumplidos": 18,
+      "aprobado": false,
+      "wape_agregado": 0.2859397987355423
+    },
+    {
+      "iteracion": 2,
+      "epochs": 1200,
+      "seg_ajuste": 12529.0,
+      "criterios_evaluados": 20,
+      "criterios_cumplidos": 18,
+      "aprobado": false,
+      "wape_agregado": 0.2764398393443166
+    }
+  ],
+  "rho_residuos": 0.3616327736214302
+}

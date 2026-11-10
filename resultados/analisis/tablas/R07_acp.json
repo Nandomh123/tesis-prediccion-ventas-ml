@@ -1,0 +1,154 @@
+{
+  "admitidas": {
+    "variables": [
+      "ipc_general_var_a",
+      "desempleo",
+      "imae_var_a",
+      "riesgo_pais",
+      "tasa_activa",
+      "remesas_var_a",
+      "petroleo_wti",
+      "oni"
+    ],
+    "k": 4,
+    "varianza_explicada": [
+      0.3494253105265632,
+      0.26229290932311633,
+      0.13288303229581558,
+      0.1006494302136709
+    ],
+    "cargas": {
+      "ipc_general_var_a": {
+        "pca_adm_pc1": 0.474,
+        "pca_adm_pc2": 0.158,
+        "pca_adm_pc3": -0.27,
+        "pca_adm_pc4": -0.386
+      },
+      "desempleo": {
+        "pca_adm_pc1": 0.11,
+        "pca_adm_pc2": 0.018,
+        "pca_adm_pc3": 0.853,
+        "pca_adm_pc4": -0.477
+      },
+      "imae_var_a": {
+        "pca_adm_pc1": -0.019,
+        "pca_adm_pc2": 0.547,
+        "pca_adm_pc3": 0.234,
+        "pca_adm_pc4": 0.267
+      },
+      "riesgo_pais": {
+        "pca_adm_pc1": 0.462,
+        "pca_adm_pc2": 0.175,
+        "pca_adm_pc3": 0.073,
+        "pca_adm_pc4": 0.392
+      },
+      "tasa_activa": {
+        "pca_adm_pc1": 0.218,
+        "pca_adm_pc2": -0.546,
+        "pca_adm_pc3": -0.034,
+        "pca_adm_pc4": -0.233
+      },
+      "remesas_var_a": {
+        "pca_adm_pc1": -0.43,
+        "pca_adm_pc2": -0.41,
+        "pca_adm_pc3": 0.069,
+        "pca_adm_pc4": 0.141
+      },
+      "petroleo_wti": {
+        "pca_adm_pc1": 0.481,
+        "pca_adm_pc2": -0.198,
+        "pca_adm_pc3": -0.123,
+        "pca_adm_pc4": 0.009
+      },
+      "oni": {
+        "pca_adm_pc1": 0.292,
+        "pca_adm_pc2": -0.374,
+        "pca_adm_pc3": 0.343,
+        "pca_adm_pc4": 0.569
+      }
+    }
+  },
+  "todas": {
+    "variables": [
+      "ipc_general_var_a",
+      "ipc_salud_var_a",
+      "desempleo",
+      "imae_var_a",
+      "riesgo_pais",
+      "tasa_activa",
+      "remesas_var_a",
+      "dengue_log",
+      "petroleo_wti",
+      "oni"
+    ],
+    "k": 4,
+    "varianza_explicada": [
+      0.3056254501334026,
+      0.2687842780019428,
+      0.13516325687630812,
+      0.09528471968614428
+    ],
+    "cargas": {
+      "ipc_general_var_a": {
+        "pca_tod_pc1": -0.375,
+        "pca_tod_pc2": 0.296,
+        "pca_tod_pc3": 0.368,
+        "pca_tod_pc4": 0.183
+      },
+      "ipc_salud_var_a": {
+        "pca_tod_pc1": 0.336,
+        "pca_tod_pc2": 0.196,
+        "pca_tod_pc3": 0.481,
+        "pca_tod_pc4": 0.304
+      },
+      "desempleo": {
+        "pca_tod_pc1": -0.056,
+        "pca_tod_pc2": 0.09,
+        "pca_tod_pc3": -0.444,
+        "pca_tod_pc4": 0.819
+      },
+      "imae_var_a": {
+        "pca_tod_pc1": -0.293,
+        "pca_tod_pc2": -0.293,
+        "pca_tod_pc3": -0.172,
+        "pca_tod_pc4": 0.201
+      },
+      "riesgo_pais": {
+        "pca_tod_pc1": -0.416,
+        "pca_tod_pc2": 0.25,
+        "pca_tod_pc3": -0.214,
+        "pca_tod_pc4": -0.251
+      },
+      "tasa_activa": {
+        "pca_tod_pc1": 0.228,
+        "pca_tod_pc2": 0.486,
+        "pca_tod_pc3": 0.093,
+        "pca_tod_pc4": 0.067
+      },
+      "remesas_var_a": {
+        "pca_tod_pc1": 0.513,
+        "pca_tod_pc2": -0.116,
+        "pca_tod_pc3": -0.106,
+        "pca_tod_pc4": -0.124
+      },
+      "dengue_log": {
+        "pca_tod_pc1": 0.387,
+        "pca_tod_pc2": 0.201,
+        "pca_tod_pc3": -0.339,
+        "pca_tod_pc4": 0.05
+      },
+      "petroleo_wti": {
+        "pca_tod_pc1": -0.14,
+        "pca_tod_pc2": 0.507,
+        "pca_tod_pc3": 0.085,
+        "pca_tod_pc4": -0.017
+      },
+      "oni": {
+        "pca_tod_pc1": 0.024,
+        "pca_tod_pc2": 0.412,
+        "pca_tod_pc3": -0.468,
+        "pca_tod_pc4": -0.278
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "filas_relacion_mes": 147507,
+  "relaciones": 3333,
+  "clientes": 289,
+  "lineas": 43,
+  "pct_meses_sin_compra": 57.402699532903526,
+  "tipos_de_relacion": {
+    "irregular (lumpy)": 1292,
+    "nueva/insuficiente": 709,
+    "intermitente": 626,
+    "errática": 591,
+    "suave": 115
+  },
+  "mediana_usd_meses_con_movimiento": 1032.545,
+  "p90_usd_meses_con_movimiento": 22559.46500000001,
+  "pct_negativos_en_meses_con_movimiento": 14.98074290988955,
+  "series_externas_admitidas": [
+    "ipc_general_var_a",
+    "desempleo",
+    "imae_var_a",
+    "riesgo_pais",
+    "tasa_activa",
+    "remesas_var_a",
+    "petroleo_wti",
+    "oni"
+  ]
+}

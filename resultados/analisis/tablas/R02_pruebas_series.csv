@@ -1,0 +1,19 @@
+﻿prueba,estadistico,p_valor,serie
+ADF (H0: raíz unitaria),-1.1128,0.7099,venta neta total
+KPSS nivel (H0: estacionaria),1.0494,0.01,venta neta total
+KPSS tendencia (H0: estacionaria en tendencia),0.1334,0.0734,venta neta total
+Tendencia lineal (t de la pendiente),9.0626,0.0,venta neta total
+Ljung–Box rezago 6,83.0276,0.0,venta neta total
+Ljung–Box rezago 12,106.1499,0.0,venta neta total
+Fuerza estacional STL (0–1),0.3607,,venta neta total
+Fuerza de tendencia STL (0–1),0.7122,,venta neta total
+BDS dim. 2 sobre residuos AR(1) (H0: lineal),1.5955,0.1106,venta neta total
+ADF (H0: raíz unitaria),-4.1779,0.0007,proporción de relaciones con compra
+KPSS nivel (H0: estacionaria),0.8838,0.01,proporción de relaciones con compra
+KPSS tendencia (H0: estacionaria en tendencia),0.2322,0.01,proporción de relaciones con compra
+Tendencia lineal (t de la pendiente),-7.827,0.0,proporción de relaciones con compra
+Ljung–Box rezago 6,92.2022,0.0,proporción de relaciones con compra
+Ljung–Box rezago 12,106.0989,0.0,proporción de relaciones con compra
+Fuerza estacional STL (0–1),0.0,,proporción de relaciones con compra
+Fuerza de tendencia STL (0–1),0.5893,,proporción de relaciones con compra
+BDS dim. 2 sobre residuos AR(1) (H0: lineal),0.0228,0.9818,proporción de relaciones con compra

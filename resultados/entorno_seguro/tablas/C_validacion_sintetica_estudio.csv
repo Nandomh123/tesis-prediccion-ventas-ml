@@ -1,0 +1,26 @@
+﻿dimension,metrica,valor,umbral,cumple,nota
+Fidelidad,KS log|venta neta| (meses con movimiento),0.022451776331276485,0.1,True,CTGAN + factor común
+Fidelidad,TVD signo de la venta neta (positiva/negativa),0.04258593374196923,0.1,True,CTGAN
+Fidelidad,KS log|unidades netas|,0.03607737973062752,0.1,True,CTGAN
+Fidelidad,KS log(precio implícito),0.023271951193098772,0.1,True,CTGAN
+Fidelidad,KS tasa_actividad_par,0.0375037503750375,0.1,True,Componente Markov
+Frecuencia/recencia,KS compras_por_par,0.03660366036603661,0.1,True,Componente Markov
+Fidelidad,KS ventas_totales_par_log,0.07260726072607261,0.1,True,Markov + CTGAN
+Frecuencia/recencia,KS intervalo_entre_compras,0.0226793002493193,0.1,True,Componente Markov
+Frecuencia/recencia,KS recencia_final,0.09360936093609361,0.1,True,Componente Markov
+Relaciones cliente–línea,KS pares por cliente,0.0,0.1,True,Preservado por diseño (esqueleto)
+Fidelidad,TVD mes calendario de meses activos,0.0056509800882786135,0.1,True,
+Fidelidad,TVD segmento de frecuencia (filas activas),0.025544695643592713,0.1,True,
+Ceros y actividad,|Δ tasa de actividad| (pp),0.10846942856949093,2.0,True,
+Ceros y actividad,|Δ % meses sin pedido| (pp),0.10846942856949093,2.0,True,Complemento exacto de la tasa de actividad
+Estructura temporal,WAPE ventas mensuales agregadas,0.22986443274217483,0.15,False,
+Estructura temporal,Correlación ventas mensuales agregadas,0.7919079765842847,,,Informativa
+Estructura temporal,Máx |Δ tasa de actividad mensual| (pp),5.569493226292021,,,Informativa
+Estructura temporal,"|Δ ACF media lag 1| (real 0.105, sint 0.074; n=2877)",0.030839593958219738,0.1,True,
+Estructura temporal,"|Δ ACF media lag 12| (real 0.010, sint -0.017; n=2877)",0.02655313315437812,0.1,True,
+Estructura temporal,TVD perfil estacional de ventas,0.06083544279374066,0.1,True,
+Relaciones,Máx |Δρ Spearman| entre rasgos,0.26229686377803024,0.15,False,
+Estructura temporal,Mediana CV² del monto por relación (real 0.353),0.6982435016849239,,,Informativa: variabilidad mes a mes dentro de la relación
+Privacidad,Prop. sintéticos con DCR < P5(real holdout),0.03355,0.1,True,"Referencia esperada ≈0,05; DCR mediana sint 0.155 vs holdout 0.101"
+Privacidad,Prop. sintéticos con DCR = 0 (copia exacta de rasgos),0.0,,,Informativa
+Privacidad,% pares (≥12 meses) con secuencia de actividad idéntica,14.373385012919895,,,Informativa; esperado bajo

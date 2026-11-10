@@ -1,0 +1,14 @@
+{
+  "pct_venta_20pct_relaciones": 98.32488352168146,
+  "mediana_por_tipo_cliente": {
+    "Autoservicios": 1338.0,
+    "Cadena de Farm Indep": 1831.0,
+    "Instit. Privadas": 471.0,
+    "Otros": 21327.0,
+    "Sub-distribuidores": 1306.0
+  },
+  "participacion_mensual_min_max": [
+    4.359552914082631,
+    12.206809565539391
+  ]
+}

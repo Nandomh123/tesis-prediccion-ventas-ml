@@ -1,0 +1,6 @@
+﻿modelo,seg_busqueda,seg_entrenamiento,filas_entrenamiento,filas_prueba
+Random Forest,636.4,328.6,661997,114629
+MLP,166.7,90.1,661997,114629
+XGBoost,157.2,14.7,661997,114629
+LightGBM,131.9,18.7,661997,114629
+CatBoost,1785.6,546.1,661997,114629
